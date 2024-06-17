@@ -1,0 +1,12 @@
+﻿
+<h3>@mensagem</h3>
+<button class="btn btn-primary" @onclick="ExibirMensagemClick">
+    Exibir
+</button>
+@code {
+    private string? mensagem;
+    private void ExibirMensagemClick()
+    {
+        mensagem = "Teste";
+    }
+}
